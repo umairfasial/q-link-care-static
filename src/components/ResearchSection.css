@@ -1,0 +1,45 @@
+.research-section {
+  background: #f8fbff;
+  padding: 2.5rem 2rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.research-content {
+  max-width: 600px; /* Adjust as needed */
+}
+
+.research-section h2 {
+  color: #2a7be4;
+  font-size: 1.4rem;
+  margin-bottom: 0.7rem;
+}
+.research-section p {
+  color: #444;
+  font-size: 1.1rem;
+}
+
+.research-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (min-width: 768px) {
+  .research-section {
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: left;
+    padding: 4rem 4rem;
+  }
+  .research-content {
+    margin-right: 2rem; /* Space between text and image */
+    max-width: 500px; /* Adjust as needed */
+  }
+  .research-image {
+    max-width: 400px; /* Adjust as needed */
+  }
+}

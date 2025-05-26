@@ -1,0 +1,29 @@
+.data-ownership-section {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 3rem 2rem;
+  background: #fff;
+}
+.ownership-block {
+  background: #f4f8fc;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
+  padding: 2rem 1.5rem;
+  flex: 1;
+  min-width: 220px;
+}
+.ownership-block h3 {
+  color: #2a7be4;
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+.ownership-block p {
+  color: #444;
+  font-size: 1rem;
+}
+.ownership-icon {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  display: block;
+}

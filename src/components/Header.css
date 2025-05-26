@@ -1,0 +1,41 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 2rem;
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+.logo {
+  font-size: 1.7rem;
+  font-weight: bold;
+  color: #2a7be4;
+}
+.logo-img {
+  height: 36px;
+  vertical-align: middle;
+  margin-right: 0.5rem;
+}
+.nav a {
+  margin-left: 1.5rem;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+.nav a:hover,
+.nav .signup {
+  color: #2a7be4;
+}
+.nav .login {
+  margin-left: 2rem;
+}
+.nav .signup {
+  margin-left: 1rem;
+  padding: 0.5rem 1.2rem;
+  background: #2a7be4;
+  color: #fff;
+  border-radius: 20px;
+  font-weight: bold;
+  border: none;
+}

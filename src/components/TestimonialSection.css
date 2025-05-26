@@ -1,0 +1,17 @@
+.testimonial-section {
+  background: #e3f0ff;
+  padding: 2.5rem 2rem;
+  text-align: center;
+}
+.testimonial-section blockquote {
+  font-size: 1.2rem;
+  color: #333;
+  font-style: italic;
+  margin: 0 auto;
+  max-width: 700px;
+}
+.testimonial-section footer {
+  margin-top: 1rem;
+  color: #2a7be4;
+  font-weight: bold;
+}
