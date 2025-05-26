@@ -1,0 +1,42 @@
+.smart-assistant-section {
+  background: #fff;
+  padding: 2.5rem 2rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column; /* Stack on small screens */
+  align-items: center;
+  gap: 2rem;
+}
+
+.smart-assistant-content {
+  max-width: 600px; /* Limit content width */
+}
+
+.smart-assistant-section h2 {
+  color: #2a7be4;
+  font-size: 1.4rem;
+  margin-bottom: 0.7rem;
+}
+.smart-assistant-section p {
+  color: #444;
+  font-size: 1.1rem;
+}
+
+.smart-assistant-image img {
+  max-width: 100%;
+  height: auto;
+  max-width: 400px; /* Limit image size */
+}
+
+@media (min-width: 768px) {
+  .smart-assistant-section {
+    flex-direction: row; /* Side-by-side on large screens */
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    padding: 4rem 4rem;
+  }
+  .smart-assistant-image {
+    margin-right: 2rem; /* Space between image and text */
+  }
+}

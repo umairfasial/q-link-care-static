@@ -1,0 +1,28 @@
+.features-section {
+  display: flex;
+  justify-content: space-around;
+  padding: 3rem 2rem;
+  background: #fff;
+}
+.feature {
+  flex: 1;
+  margin: 0 1.5rem;
+  background: #f4f8fc;
+  border-radius: 12px;
+  padding: 2rem 1.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
+}
+.feature h2 {
+  color: #2a7be4;
+  font-size: 1.3rem;
+  margin-bottom: 0.7rem;
+}
+.feature p {
+  color: #444;
+  font-size: 1rem;
+}
+.feature-icon {
+  font-size: 2.2rem;
+  margin-bottom: 0.7rem;
+  display: block;
+}
